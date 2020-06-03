@@ -1,9 +1,10 @@
 .gooditem {
+  position: relative;
   margin: 0 15px 30px;
   padding: 27px 30px 20px;
   width: 200px;
   height: 250px;
-  background-color: white;
+  background-color: #fbf1e7;
   border-radius: 20px;
   text-align: left;
   font-weight: 300;
@@ -18,6 +19,12 @@
   background-color: #897D55;
   box-shadow: 0 3px 7px 3px rgba(0, 0, 0, .1);
   color: white;
+}
+
+.gooditem__name,
+.gooditem__price {
+  transition-duration: 300ms;
+  transition-property: color;
 }
 
 .gooditem__name {
@@ -49,4 +56,15 @@
 
 .gooditem:hover .gooditem__price {
   color: white;
+}
+
+.gooditem__corner {
+  position: absolute;
+  bottom: 32px;
+  right: 20px;
+}
+
+.gooditem:hover .gooditem__corner button {
+  background-color: white;
+  color: #6C6024;
 }

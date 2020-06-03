@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import GoodCorner from './GoodCorner';
 import './GoodItem.css';
 
 class GoodItem extends Component {
@@ -17,6 +18,7 @@ class GoodItem extends Component {
         <div className="gooditem__price">
           NT { data.price }
         </div>
+        <GoodCorner className="gooditem__corner" />
       </div>
     );
   }
