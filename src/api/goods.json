@@ -1,21 +1,45 @@
 {
   "data": [{
-    "id": "4gu8mm",
-    "name": "Apple",
-    "description": "An apple a day",
-    "price": 777,
-    "category": "COLD"
+    "id": "8g9ma3",
+    "name": "完美日曬耶加雪菲",
+    "description": "咖啡果實經日曬後糖分轉化吸入咖啡豆中，能品嚐到濃郁奔放的果香、草莓、鳳梨等熱帶水果風味，尾韻甘甜醇厚。",
+    "price": 140,
+    "category": "FRUITY"
   }, {
     "id": "gajoi4",
-    "name": "Bluejay",
-    "description": "The best baseball team",
-    "price": 9999,
-    "category": "HOT"
+    "name": "超級肯亞",
+    "description": "超級肯亞被譽為非洲精品豆之王，酸感優於一般肯亞能感受到極明亮的酸質，帶有黑醋栗、烏梅風味。",
+    "price": 150,
+    "category": "FRUITY"
   }, {
     "id": "ap83u9",
-    "name": "Car",
-    "description": "Tesla truck so cool",
-    "price": 404,
-    "category": "COLD"
+    "name": "水果耶加雪菲",
+    "description": "採用水洗處理法，過程中去除果皮與果肉並篩選掉不成熟的果實，與日曬法相比風味更清新香甜。",
+    "price": 150,
+    "category": "FRUITY"
+  }, {
+    "id": "4gu8mm",
+    "name": "巴拿馬日曬",
+    "description": "嚴選巴拿馬知名百年冠軍莊園的極品咖啡豆，採用非洲棚架日曬微批次處理，迷人風味帶有酒香、鳳梨、熱帶水果及果乾香。",
+    "price": 155,
+    "category": "FRUITY"
+  },  {
+    "id": "g3i8ua",
+    "name": "薩爾瓦多 PACAMARA",
+    "description": "Pacamara是由薩爾瓦多優良咖啡育種團隊所培育出的國寶級豆種，豆型碩大風味獨特，是為國際杯測賽中的常勝軍。帶有明亮的水果酸質、醇厚且甜味香純，口感細緻令人驚艷。",
+    "price": 155,
+    "category": "FLORAL"
+  },  {
+    "id": "mgi744",
+    "name": "黃金曼特寧 G1",
+    "description": "選用Ｇ1特優級原生曼特寧，經由人工挑豆篩選優質生豆，價值直逼高海拔藍山咖啡，甘苦中散發天然水果香氣。 ",
+    "price": 150,
+    "category": "WOODY"
+  },  {
+    "id": "9pm8u2",
+    "name": "林東之金",
+    "description": "林東之金曼特寧具有辨識度極高且讓饕客著迷的青草、藥草系風味，極致厚醇度凸顯出曼特寧特有的濃郁風味。",
+    "price": 150,
+    "category": "WOODY"
   }]
 }

@@ -1,4 +1,15 @@
 .app {
-  font-family: monospace;
   text-align: center;
+}
+
+.app-container {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 960px;
+}
+
+.app h1 {
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 300;
 }

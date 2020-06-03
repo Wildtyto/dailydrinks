@@ -1,0 +1,52 @@
+.gooditem {
+  margin: 0 15px 30px;
+  padding: 27px 30px 20px;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  font-weight: 300;
+  transition-duration: 300ms;
+  transition-property: transform, background-color, box-shadow, color;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1);
+  cursor: default;
+}
+
+.gooditem:hover {
+  transform: scale(1.05) translateY(5px);
+  background-color: #897D55;
+  box-shadow: 0 3px 7px 3px rgba(0, 0, 0, .1);
+  color: white;
+}
+
+.gooditem__name {
+  margin-bottom: 10px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  color: #6C6024;
+}
+
+.gooditem:hover .gooditem__name {
+  color: white;
+}
+
+.gooditem__description {
+  margin-bottom: 30px;
+  font-size: 11px;
+  height: 90px;
+  overflow-y: auto;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+.gooditem__price {
+  color: #6C6024;
+}
+
+.gooditem:hover .gooditem__price {
+  color: white;
+}

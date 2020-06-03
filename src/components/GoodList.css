@@ -1,0 +1,4 @@
+.goodlist {
+  display: flex;
+  flex-wrap: wrap;
+}
