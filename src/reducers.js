@@ -11,6 +11,16 @@ const goods = (state = [], action) => {
 
 const orders = (state = [], action) => {
   switch (action.type) {
+    case 'PLUS_ORDER':
+      return {
+        ...state,
+        [action.id]: ( state[action.id] || 0 ) + 1 
+      };
+    case 'MINUS_ORDER':
+      return {
+        ...state,
+        [action.id]: ( state[action.id] || 0 ) > 0 ? state[action.id] - 1 : 0
+      };
     default:
       return state;
   }

@@ -18,7 +18,7 @@ class GoodItem extends Component {
         <div className="gooditem__price">
           NT { data.price }
         </div>
-        <GoodCorner className="gooditem__corner" />
+        <GoodCorner className="gooditem__corner" id={ data.id } />
       </div>
     );
   }
