@@ -1,0 +1,21 @@
+{
+  "data": [{
+    "id": "4gu8mm",
+    "name": "Apple",
+    "description": "An apple a day",
+    "price": 777,
+    "category": "COLD"
+  }, {
+    "id": "gajoi4",
+    "name": "Bluejay",
+    "description": "The best baseball team",
+    "price": 9999,
+    "category": "HOT"
+  }, {
+    "id": "ap83u9",
+    "name": "Car",
+    "description": "Tesla truck so cool",
+    "price": 404,
+    "category": "COLD"
+  }]
+}
