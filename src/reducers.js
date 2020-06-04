@@ -9,7 +9,7 @@ const goods = (state = [], action) => {
   }
 };
 
-const orders = (state = [], action) => {
+const orders = (state = {}, action) => {
   switch (action.type) {
     case 'PLUS_ORDER':
       return {
@@ -21,6 +21,8 @@ const orders = (state = [], action) => {
         ...state,
         [action.id]: ( state[action.id] || 0 ) > 0 ? state[action.id] - 1 : 0
       };
+    case 'CLEAR_ORDERS':
+      return {};
     default:
       return state;
   }

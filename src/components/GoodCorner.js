@@ -24,7 +24,7 @@ class GoodCorner extends Component {
   }
 
   get componentClass() {
-    const { className } = this.props;
+    const { className = '' } = this.props;
     return className;
   }
   

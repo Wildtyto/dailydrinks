@@ -10,5 +10,8 @@ export default {
   minusOrder: id => ({
     type: 'MINUS_ORDER',
     id
+  }),
+  clearOrders: () => ({
+    type: 'CLEAR_ORDERS'
   })
 };

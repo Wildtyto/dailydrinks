@@ -25,10 +25,7 @@ class GoodList extends Component {
 
   componentDidMount() {
     const { setGoods } = this.props;
-    Api.fetchGoods()
-      .then( res => {
-        setGoods(res)
-      })
+    Api.fetchGoods().then( response => setGoods(response) )
   }
 
 }

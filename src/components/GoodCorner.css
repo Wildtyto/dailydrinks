@@ -29,3 +29,7 @@
 .goodcorner button:hover {
   transform: scale(1.1);
 }
+
+.goodcorner button:active {
+  transform: scale(.9);
+}

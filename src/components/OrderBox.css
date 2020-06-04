@@ -1,0 +1,83 @@
+.orderbox {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    padding: 30px 50px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    transform: translate(-50%, 0);
+    transition-duration: 200ms;
+    transition-property: bottom, height, transform;
+    text-align: left;
+}
+
+.orderbox--working {
+    bottom: 0;
+}
+
+.orderbox--carting {
+    height: 75%;
+}
+
+.orderbox__list {
+    display: none;
+}
+
+.orderbox--carting .orderbox__list {
+    display: block;
+}
+
+.orderbox__sum {
+    font-size: 30px;
+}
+
+.orderbox--carting .orderbox__sum {
+    position: absolute;
+    bottom: 35px;
+}
+
+.orderbox button {
+    padding: 8px 20px;
+    background: none;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.orderbox button:hover {
+    transform: scale(1.05);
+}
+
+.orderbox button:active {
+    transform: scale(.95);
+}
+
+button.orderbox__cart {
+    position: absolute;
+    bottom: 32px;
+    right: 30px;
+    background-color: #ECB88A;
+    font-size: 20px;
+}
+
+.orderbox--carting .orderbox__cart {
+    display: none;
+}
+
+button.orderbox__submit {
+    display: none;
+    position: absolute;
+    bottom: 32px;
+    right: 30px;
+    background-color: #6C6024;
+    font-size: 20px;
+}
+
+.orderbox--carting .orderbox__submit {
+    display: block;
+}
