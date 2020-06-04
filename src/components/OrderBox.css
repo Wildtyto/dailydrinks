@@ -81,3 +81,9 @@ button.orderbox__submit {
 .orderbox--carting .orderbox__submit {
     display: block;
 }
+
+@media only screen and (max-width: 767px) {
+    .orderbox {
+        width: 95%;
+    }
+}

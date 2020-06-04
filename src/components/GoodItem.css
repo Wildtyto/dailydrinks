@@ -68,3 +68,28 @@
   background-color: white;
   color: #6C6024;
 }
+
+@media only screen and (max-width: 767px) {
+
+  .gooditem {
+    margin: 0 7px 12px;
+    padding: 15px 15px;
+    width: 140px;
+    border-radius: 15px;
+  }
+
+  .gooditem__description {
+    margin-bottom: 20px;
+    height: 65px;
+  }
+
+  .gooditem__corner {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .gooditem:hover {
+    transform: none;
+  }
+  
+}

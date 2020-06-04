@@ -5,6 +5,7 @@
 .app-container {
   margin: 0 auto;
   padding-top: 20px;
+  padding-bottom: 100px;
   width: 960px;
 }
 
@@ -12,4 +13,20 @@
   margin-bottom: 50px;
   color: white;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .app-container {
+    width: 720px;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+  .app-container {
+    width: 100%;
+  }
+
 }
